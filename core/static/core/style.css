@@ -1,0 +1,456 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-inverse {
+  background-color: rgb(52, 58, 64);
+  border-color: rgb(52, 58, 64);
+}
+
+body {
+  overflow-x: hidden;
+}
+.navbar-inverse {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+@media (max-width: 1000px) {
+  .navbar-header {
+    float: none;
+  }
+
+  #brand {
+    text-align: center;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-size: 23px;
+  font-family: "Press Start 2P", cursive;
+}
+
+#the_body {
+  background-image: rgb(233, 236, 239);
+}
+
+.nav-item {
+  font-size: 17px;
+  font-family: "Press Start 2P", cursive;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+}
+
+.thefonts {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#fonts {
+  font-family: "Press Start 2P", cursive;
+  font-size: 18px;
+}
+
+#BIOGRAHPY_text {
+  font-family: "Press Start 2P", sans-serif;
+  color: #525a6a;
+  font-size: 15px 10vw;
+  text-size-adjust: auto;
+}
+
+.ugly {
+  width: 70%;
+  padding-top: 0px;
+  margin-top: 10px;
+}
+
+.ugly2 {
+  position: absolute;
+  max-width: 145;
+  max-height: 80;
+  top: 51px;
+  right: 120px;
+}
+
+.ugly3 {
+  max-width: 70;
+  max-height: 70;
+  white-space: nowrap;
+  clear: both;
+  float: left;
+}
+
+#ugly3_container {
+  overflow: hidden;
+  width: 80%;
+  margin-right: 0;
+  height: 80px;
+  margin-top: 10px;
+}
+
+#position {
+  font-family: "Press Start 2P";
+  color: #525a6a;
+  font-size: 13px;
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 1050px) {
+  .credits {
+    text-align: center;
+  }
+}
+
+/*@media only screen and (max-width: 990px) {
+  .credits {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+}*/
+
+@media only screen and (min-width: 700px) and (max-width: 990px) {
+  .credits {
+    padding-right: 30%;
+    padding-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .credits {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+}
+
+a:hover .Hover {
+  transform: scale(1.1);
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+}
+
+a:hover .nav-item {
+  color: rgb(218, 165, 32);
+}
+
+.twitter {
+  background-image: url("./twitter_gold.png");
+  margin: 10px;
+}
+
+.cta {
+  transition: all 1s;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+#fonts_education {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  color: #525a6a;
+}
+
+#fonts_education_2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 14px;
+  color: #525a6a;
+}
+
+#resume_font {
+  font-family: "Press Start 2P", cursive;
+  font-size: 17px;
+}
+
+#projects_font {
+  font-family: "Press Start 2P", cursive;
+}
+#publications_font {
+  font-family: "Press Start 2P", cursive;
+  font-size: 19px;
+}
+li.nav-item a:hover {
+  color: rgb(160, 82, 45) !important;
+}
+
+.navbar-header a:hover {
+  color: rgb(218, 165, 32) !important;
+}
+
+.nav-item a:hover {
+  color: rgb(218, 165, 32);
+}
+
+a:hover {
+  color: rgb(218, 165, 32);
+}
+.projects-galary-div {
+  margin-top: 20px;
+}
+
+.projects-galary-photos {
+  box-shadow: 3px 3px 3px rgb(152, 153, 155);
+}
+
+.image_title {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  margin-top: 10px;
+  color: black;
+}
+
+.content {
+  position: absolute;
+  inset: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.projects-galary-div {
+  overflow: hidden;
+}
+
+.projects-galary-div > .content {
+  transition: 200ms ease-in-out;
+}
+
+.projects-galary-div > .content.fade {
+  opacity: 0;
+}
+
+.projects-galary-div:hover > .content.fade {
+  opacity: 1;
+}
+
+.projects-galary-div:hover > img.blur {
+  opacity: 0.5;
+  filter: blur(10px);
+}
+
+.projects-galary-div:hover > img.zoom {
+  transform: scale(1.1);
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.from-down {
+  transform: translateY(50%);
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-down.appear {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* .projects-containr {
+  margin-top: 500px;*/
+
+.contact-me-form {
+  background-color: #525a6a;
+}
+
+#contact-font {
+  font-family: "Press Start 2P", cursive;
+  font-size: 25px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.label {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+}
+
+#email {
+  text-align: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  margin-right: 100px;
+}
+
+/* .email-field {
+  width: 50%;
+  height: 100px;
+}
+
+.other-fields {
+  width: 50%;
+  border-radius: 25px;
+} */
+#email {
+  align-items: right;
+}
+
+.form-control {
+  font-family: "Press Start 2P", cursive;
+  max-width: 80%;
+  position: relative;
+  left: 15%;
+}
+
+.button-control {
+  position: relative;
+  right: 40%;
+  max-width: 30%;
+  background-color: transparent;
+  font-family: "Press Start 2P", cursive;
+  border-color: rgb(218, 165, 32);
+  margin-bottom: 15px;
+}
+
+.navbar {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.button-control:hover {
+  background-color: rgb(218, 165, 32);
+}
+@media only screen and (max-width: 700px) {
+  .form-control {
+    position: relative;
+    left: 23%;
+  }
+  .button-control {
+    position: relative;
+    right: 25%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #ugly3_container {
+    width: 82%;
+  }
+  .ugly2 {
+    position: absolute;
+    max-width: 145;
+    max-height: 80;
+    top: 51px;
+    right: 60px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #ugly3_container {
+    width: 79.5%;
+  }
+  .ugly2 {
+    position: absolute;
+    max-width: 145;
+    max-height: 80;
+    top: 51px;
+    right: 60px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #ugly3_container {
+    width: 77%;
+  }
+  .ugly2 {
+    position: absolute;
+    max-width: 145;
+    max-height: 80;
+    top: 51px;
+    right: 60px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #ugly3_container {
+    width: 73.5%;
+  }
+  .ugly2 {
+    position: absolute;
+    max-width: 145;
+    max-height: 80;
+    top: 51px;
+    right: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #ugly3_container {
+    width: 68%;
+  }
+  .ugly2 {
+    position: absolute;
+    max-width: 145;
+    max-height: 80;
+    top: 51px;
+    right: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #ugly3_container {
+    width: 62.5%;
+  }
+  .ugly2 {
+    position: absolute;
+    max-width: 145;
+    max-height: 80;
+    top: 51px;
+    right: 60px;
+  }
+}
